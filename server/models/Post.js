@@ -5,9 +5,11 @@ const postSchema = mongoose.Schema({
         type: String,
         required: true
     },
+    fistname: {
+        type: String,
+    },
     lastname: {
         type: String,
-        required: true
     },
     location: {
         type: String,
@@ -21,7 +23,7 @@ const postSchema = mongoose.Schema({
         of: Boolean,
     },
     comments: {
-        types: Array,
+        type: Array,
         default: []
     }
     

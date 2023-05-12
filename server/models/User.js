@@ -4,13 +4,11 @@ import mongoose, { Schema } from "mongoose";
 const UserSchema = new Schema({
     firstname: {
         type: String,
-        required: true,
         min: 2,
         max: 50
     },
     lastname: {
         type: String,
-        required: true,
         min: 2,
         max: 50
     },
