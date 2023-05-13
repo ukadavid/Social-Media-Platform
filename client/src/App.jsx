@@ -19,7 +19,7 @@ function App() {
         <ThemeProvider theme={theme}>
         <CssBaseline />
         <Routes>
-          <Route path="/" element={<Homepage />} />
+          <Route path="/home" element={<Homepage />} />
           <Route path="/login" element={<Login />} />
           <Route path="/profile/:userId" element={<Profilepage />} />
         </Routes>
